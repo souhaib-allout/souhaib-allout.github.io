@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+    <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/myHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/myHome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +36,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="D:\wrk\large projects\portfolio-next\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wrk\large projects\portfolio-next\src\data" />
       <recent name="D:\wrk\large projects\portfolio-next\public\images" />
       <recent name="D:\wrk\large projects\portfolio-next\src\component" />
       <recent name="D:\wrk\large projects\portfolio-next\public" />
@@ -58,8 +60,19 @@
       <updated>1689083153931</updated>
       <workItem from="1689083158611" duration="10000" />
       <workItem from="1689083193086" duration="5592000" />
-      <workItem from="1689089260301" duration="8299000" />
+      <workItem from="1689089260301" duration="10194000" />
+      <workItem from="1689103860542" duration="678000" />
+      <workItem from="1689107313870" duration="1466000" />
+      <workItem from="1689108851707" duration="2806000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1689102004770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689102004771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +89,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

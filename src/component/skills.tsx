@@ -1,22 +1,7 @@
+import skills from '/src/data/skills';
 
 export default function Skills(){
 
-    const skills=['Java','Spring Boot','Spring Cloud','Microservices','Thymeleaf','RabbitMQ','JUnit','AssertJ',
-        'PHP', 'Symfony','Laravel', 'PHPUnit',
-        'Python','Django',
-        'JavaScript','React Js','Next Js','MySql',
-        'MongoDB',
-        'Oracle Database',
-        'Amazon Web Services (AWS)',
-        'Docker Products',
-        'Git',
-        'Sonarqube','Scrum',
-        'Design Patterns',
-        'Unified Modeling Language (UML)',
-        'Algorithms',
-        'REST APIs',
-        'SOAP',
-        'WebSocket']
     return (
         <section className="colorlib-skills" data-section="skills">
             <div className="colorlib-narrow-content">
@@ -35,11 +20,11 @@ export default function Skills(){
                     {skills.map( (skill,key)=>
                         <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft" key={key}>
                             <div className="progress-wrap">
-                                <h3>{skill}</h3>
+                                <h3>{skill.name}</h3>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar color-6" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                                    <span>80%</span>
+                                    <span>{skill.percentage}%</span>
                                 </div>
                             </div>
 
