@@ -24,7 +24,7 @@ export default function Education() {
                                                 <a data-toggle="collapse" data-parent="#accordion"
                                                    href={"#collapse" + key}
                                                    aria-expanded="false" aria-controls={"collapse" + key}
-                                                   className={key != 0 && "collapsed"}>
+                                                   className={key != 0 ? "collapsed" : ''}>
                                                     {education.title}
                                                 </a>
                                             </h4>

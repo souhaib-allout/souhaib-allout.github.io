@@ -12,7 +12,7 @@ export default function About() {
                         <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                             <div className="col-md-12">
                                 <div className="about-desc">
-                                    <span className="heading-meta">About Us</span>
+                                    <span className="heading-meta" >About Us</span>
                                     <h2 className="colorlib-heading">Who Am I?</h2>
                                     <TypeAnimation
                                         sequence={[

@@ -55,7 +55,7 @@ export default function Contact() {
                                         <input type="text" className="form-control" placeholder="Subject"/>
                                     </div>
                                     <div className="form-group">
-                                        <textarea name id="message" cols={30} rows={7} className="form-control"
+                                        <textarea  id="message" cols={30} rows={7} className="form-control"
                                                   placeholder="Message" defaultValue={""}/>
                                     </div>
                                     <div className="form-group">

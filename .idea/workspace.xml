@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,20 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="ts.external.directory.path" value="D:\wrk\large projects\portfolio-next\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "D:\\wrk\\large projects\\portfolio-next\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\wrk\large projects\portfolio-next\src\data" />
@@ -67,7 +72,10 @@
       <workItem from="1689108851707" duration="6156000" />
       <workItem from="1689153911076" duration="2721000" />
       <workItem from="1689167067702" duration="4745000" />
-      <workItem from="1689184557112" duration="2059000" />
+      <workItem from="1689184557112" duration="2235000" />
+      <workItem from="1689187006509" duration="2123000" />
+      <workItem from="1689191410952" duration="1000" />
+      <workItem from="1689191454607" duration="367000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689102004770</created>
@@ -118,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689186279911</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first commit">
+      <created>1689186839717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689186839717</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +149,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

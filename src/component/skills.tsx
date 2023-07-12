@@ -23,7 +23,7 @@ export default function Skills(){
                                 <h3>{skill.name}</h3>
                             </div>
                             <div className="progress">
-                                <div className={"progress-bar color-"+(skill.color)} role="progressbar" aria-valuenow={skill.percentage} aria-valuemin={0} aria-valuemax={100} style={{width: skill.percentage+"%"}}>
+                                <div className={"progress-bar color-"+(skill.color)} role="progressbar" aria-valuenow={parseInt(skill.percentage)} aria-valuemin={0} aria-valuemax={100} style={{width: skill.percentage+"%"}}>
                                     <span>{skill.percentage}%</span>
                                 </div>
                             </div>
