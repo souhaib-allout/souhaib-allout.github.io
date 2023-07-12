@@ -1,7 +1,4 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 import SidenNav from "../component/sidenNav";
-import Home from "../component/myHome";
 
 
 import Education from "../component/education";

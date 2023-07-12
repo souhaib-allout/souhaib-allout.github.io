@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/src/component/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/myHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/myHome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/services.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/sidenNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/sidenNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
       <workItem from="1689108851707" duration="6156000" />
       <workItem from="1689153911076" duration="2721000" />
       <workItem from="1689167067702" duration="4745000" />
-      <workItem from="1689184557112" duration="1121000" />
+      <workItem from="1689184557112" duration="1525000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689102004770</created>
@@ -91,7 +85,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689185372110</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1689185838859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689185838859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1689185972172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689185972172</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1689186105126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689186105126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
