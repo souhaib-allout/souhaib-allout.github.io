@@ -1,4 +1,4 @@
-import skills from '/src/data/skills';
+import skills from '../data/skills';
 
 export default function Skills(){
 
@@ -23,7 +23,7 @@ export default function Skills(){
                                 <h3>{skill.name}</h3>
                             </div>
                             <div className="progress">
-                                <div className="progress-bar color-6" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
+                                <div className={"progress-bar color-"+(skill.color)} role="progressbar" aria-valuenow={skill.percentage} aria-valuemin={0} aria-valuemax={100} style={{width: skill.percentage+'%'}}>
                                     <span>{skill.percentage}%</span>
                                 </div>
                             </div>

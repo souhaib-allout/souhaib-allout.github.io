@@ -602,6 +602,11 @@ body.offcanvas {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
 
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 {
+  font-size: 16px;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500; }
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
 
@@ -612,6 +617,14 @@ body.offcanvas {
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
   font-size: 16px; }
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 span {
+  -webkit-opacity: .4;
+  -moz-opacity: .4;
+  opacity: .4;
+  -ms-filter: alpha(opacity=40);
+  filter: alpha(opacity=40);
+  font-size: 14px; }
 
 .services {
   margin-bottom: 30px;

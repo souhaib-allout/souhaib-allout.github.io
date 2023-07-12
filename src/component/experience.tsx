@@ -1,4 +1,4 @@
-import experiences from '/src/data/experiences';
+import experiences from '../data/experiences';
 
 export default function Experience() {
 
@@ -18,19 +18,26 @@ export default function Experience() {
                             {experiences.map((experience,key)=>
                                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft" key={key}>
                                     <div className="timeline-entry-inner">
-                                        <div className="timeline-icon color-1">
+                                        <div className={"timeline-icon color-"+(key+1)}>
                                             <i className="icon-pen2"/>
                                         </div>
                                         <div className="timeline-label">
                                             <h2><a href="#">{experience.position}</a> <span>{experience.duration}</span></h2>
-                                            <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add
-                                                and offered prepare how cordial two promise. Greatly who affixed suppose
-                                                but enquire compact prepare all put. Added forth chief trees but rooms
-                                                think may.</p>
+                                            <h3>{experience.entreprise} <span>{experience.mode}</span></h3>
+                                            <p style={{'display': 'inline-block','whiteSpace':'pre-line'}}>
+                                                {experience.description}
+                                            </p>
                                         </div>
                                     </div>
                                 </article>
                             )}
+                            <article className="timeline-entry begin animate-box fadeInUp animated"
+                                     data-animate-effect="fadeInBottom">
+                                <div className="timeline-entry-inner">
+                                    <div className="timeline-icon color-none">
+                                    </div>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
