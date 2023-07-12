@@ -46,7 +46,10 @@ export default function RootLayout({
 
         </head>
 
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+
+            {children}
+        </body>
 
         {/* jQuery */}
         <Script src="js/jquery.min.js"/>
