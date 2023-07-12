@@ -44,7 +44,7 @@ export default function Contact() {
                         <div className="row">
                             <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
                                  data-animate-effect="fadeInRight">
-                                <form action>
+                                <form >
                                     <div className="form-group">
                                         <input type="text" className="form-control" placeholder="Name"/>
                                     </div>
