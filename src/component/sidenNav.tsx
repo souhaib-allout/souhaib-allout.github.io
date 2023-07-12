@@ -4,7 +4,7 @@ export default function SidenNav(){
     return (
         <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
             <div className="text-center">
-                <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
+                <div className="author-img" style={{backgroundImage: "url(images/about.jpg)"}} />
                 <h1 id="colorlib-logo"><a href="index.html">Souhaib ALLOUT</a></h1>
                 <span className="position">Software Engineer</span>
             </div>

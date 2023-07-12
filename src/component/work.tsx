@@ -17,7 +17,7 @@ export default function Work(){
                 </div>
                 <div className="row">
                     <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                        <div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+                        <div className="project" style={{backgroundImage: "url(images/img-1.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
                                     <h3><a href="work.html">Work 01</a></h3>
@@ -32,7 +32,7 @@ export default function Work(){
                         </div>
                     </div>
                     <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                        <div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+                        <div className="project" style={{backgroundImage: "url(images/img-2.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
                                     <h3><a href="work.html">Work 02</a></h3>
@@ -47,7 +47,7 @@ export default function Work(){
                         </div>
                     </div>
                     <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
-                        <div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+                        <div className="project" style={{backgroundImage: "url(images/img-3.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
                                     <h3><a href="work.html">Work 03</a></h3>
@@ -62,7 +62,7 @@ export default function Work(){
                         </div>
                     </div>
                     <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-                        <div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+                        <div className="project" style={{backgroundImage: "url(images/img-4.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
                                     <h3><a href="work.html">Work 04</a></h3>
@@ -77,7 +77,7 @@ export default function Work(){
                         </div>
                     </div>
                     <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                        <div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
+                        <div className="project" style={{backgroundImage: "url(images/img-5.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
                                     <h3><a href="work.html">Work 05</a></h3>
@@ -92,7 +92,7 @@ export default function Work(){
                         </div>
                     </div>
                     <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                        <div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
+                        <div className="project" style={{backgroundImage: "url(images/img-6.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
                                     <h3><a href="work.html">Work 06</a></h3>

@@ -24,7 +24,7 @@ export default function Experience() {
                                         <div className="timeline-label">
                                             <h2><a href="#">{experience.position}</a> <span>{experience.duration}</span></h2>
                                             <h3>{experience.entreprise} <span>{experience.mode}</span></h3>
-                                            <p style={{'display': 'inline-block','whiteSpace':'pre-line'}}>
+                                            <p style={{"display": "inline-block","whiteSpace":"pre-line"}}>
                                                 {experience.description}
                                             </p>
                                         </div>

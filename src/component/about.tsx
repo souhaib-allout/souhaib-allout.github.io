@@ -33,7 +33,7 @@ export default function About() {
                                         wrapper="p"
                                         cursor={true}
                                         speed={99}
-                                        style={{ display: 'inline-block',whiteSpace: 'pre-line'}}
+                                        style={{ display: "inline-block",whiteSpace: "pre-line"}}
                                     />
 
                                 </div>

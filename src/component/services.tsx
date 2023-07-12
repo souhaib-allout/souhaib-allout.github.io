@@ -17,7 +17,7 @@ export default function Services() {
                     {/*<i className="icon-group-outline"/>*/}
                     {services.map((service, key) =>
                         <div className="col-md-4 text-center animate-box" key={key} >
-                            <div className={"services color-"+(key+1)} style={{'height':'380px'}}>
+                            <div className={"services color-"+(key+1)} style={{"height":"380px"}}>
                                 <div className="icon ">
                                     <i className={service.class}/>
                                 </div>

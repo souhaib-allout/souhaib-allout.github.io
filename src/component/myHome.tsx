@@ -4,7 +4,7 @@ export default function MyHome() {
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
             <div className="flexslider js-fullheight">
                 <ul className="slides">
-                    <li style={{backgroundImage: 'url(images/img_bg_1.jpg)'}}>
+                    <li style={{backgroundImage: "url(images/img_bg_1.jpg)"}}>
                         <div className="overlay"/>
                         <div className="container-fluid">
                             <div className="row">
@@ -21,7 +21,7 @@ export default function MyHome() {
                             </div>
                         </div>
                     </li>
-                    <li style={{backgroundImage: 'url(images/img_bg_2.jpg)'}}>
+                    <li style={{backgroundImage: "url(images/img_bg_2.jpg)"}}>
                         <div className="overlay"/>
                         <div className="container-fluid">
                             <div className="row">
