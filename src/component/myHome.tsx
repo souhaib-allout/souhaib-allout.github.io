@@ -12,7 +12,7 @@ export default function MyHome() {
                                     className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                                     <div className="slider-text-inner js-fullheight">
                                         <div className="desc">
-                                            <h2>Hi! <br/>I'm Souhaib</h2>
+                                            <h2>Hi! <br/>I&apos;m Souhaib</h2>
                                             <p><a className="btn btn-primary btn-learn">Download CV <i
                                                 className="icon-download4"/></a></p>
                                         </div>
