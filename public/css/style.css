@@ -1459,11 +1459,11 @@ body.offcanvas {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #2c98f0;
+  background: #61666b;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #186aac;
+  background: #61666b;
 }
