@@ -13,20 +13,20 @@ export default function Skills(){
                 </div>
                 <div className="row">
                     <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                        <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild
-                            Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed
-                            her seven versalia, put her initial into the belt and made herself on the way.</p>
+                        <p>As a software engineer, I have cultivated a diverse skill set that enables me to tackle
+                            a wide range of projects and deliver exceptional results. I specialize in several
+                            programming languages and frameworks, including: .</p>
                     </div>
                     {skills.map( (skill,key)=>
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft" key={key}>
-                            <div className="progress-wrap">
-                                <h3>{skill.name}</h3>
-                            </div>
-                            <div className="progress">
-                                <div className={"progress-bar color-"+(skill.color)} role="progressbar" aria-valuenow={parseInt(skill.percentage)} aria-valuemin={0} aria-valuemax={100} style={{width: skill.percentage+"%"}}>
-                                    <span>{skill.percentage}%</span>
-                                </div>
-                            </div>
+                        <div className="col-md-6 progress-wrap animate-box" data-animate-effect="fadeInLeft" key={key}>
+                            {/*<div className="progress-wrap mt-3">*/}
+                                <h3>- {skill.name}</h3>
+                            {/*</div>*/}
+                            {/*<div className="progress">*/}
+                            {/*    <div className={"progress-bar color-"+(skill.color)} role="progressbar" aria-valuenow={parseInt(skill.percentage)} aria-valuemin={0} aria-valuemax={100} style={{width: skill.percentage+"%"}}>*/}
+                            {/*        <span>{skill.percentage}%</span>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
 
                         </div>
                     )}
