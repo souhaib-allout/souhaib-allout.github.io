@@ -22,6 +22,10 @@ export default function SidenNav(){
                         <li><a href="#" data-nav-section="work">Work</a></li>
                         <li><a href="#" data-nav-section="blog">Blog</a></li>
                         <li><a href="#" data-nav-section="contact">Contact</a></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/souhaib-allout/" target="_blank"><i className="icon icon-social-linkedin" style={{'fontSize':'30px'}}/></a>
+                            <a href="https://github.com/souhaib-allout" ><i className="icon icon-social-github" style={{'fontSize':'30px'}}/></a>
+                        </li>
                     </ul>
                 </div>
             </nav>
