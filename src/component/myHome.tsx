@@ -31,7 +31,7 @@ export default function MyHome() {
                                     className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                                     <div className="slider-text-inner">
                                         <div className="desc">
-                                            <h1 >I am <br/>a Software engineer</h1>
+                                            <h1 >Welcome  <br/>to my portfolio</h1>
                                             <p><a href="https://www.linkedin.com/in/souhaib-allout/" target="_blank" className="btn btn-primary btn-learn">
                                                 View My LinkEdin <i
                                                 className="icon-linkedin2"/></a></p>

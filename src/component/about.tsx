@@ -1,6 +1,7 @@
 'use client'
 
 import {TypeAnimation} from 'react-type-animation';
+import Languages from "@/component/languages";
 
 export default function About() {
 
@@ -42,6 +43,8 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <Languages/>
+
         </section>
     )
 }

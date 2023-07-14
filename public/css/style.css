@@ -471,7 +471,9 @@ body.offcanvas {
   -ms-box-shadow: none !important;
   -o-box-shadow: none !important;
   box-shadow: none !important; }
-
+.panel-heading a span{
+  opacity: .9;
+}
 .panel {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
@@ -637,6 +639,8 @@ body.offcanvas {
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   border-bottom: 2px solid #2c98f0; }
+
+
   .services .icon2 {
     display: block;
     margin-bottom: 20px; }
@@ -1466,6 +1470,60 @@ body.offcanvas {
   background: #61666b;
   border-radius: 10px;
 }
+
+.languages {
+  margin-bottom: 30px;
+  padding: 1.5em;
+  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  border-bottom: 2px solid #2c98f0; }
+.languages h3 {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 500; }
+.languages.color-2 {
+  border-bottom: 2px solid #ec5453; }
+.languages.color-2 .icon2 i {
+  color: #ec5453; }
+.languages.color-3 {
+  border-bottom: 2px solid #f9bf3f; }
+.languages.color-3 .icon2 i {
+  color: #f9bf3f; }
+.languages.color-4 {
+  border-bottom: 2px solid #a84cb8; }
+.languages.color-4 .icon2 i {
+  color: #a84cb8; }
+.languages.color-5 {
+  border-bottom: 2px solid #2fa499; }
+.languages.color-6 {
+  border-bottom: 2px solid #4054b2; }
+
+.languages {
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 0; }
+@media screen and (max-width: 768px) {
+  .languages {
+    margin-top: 4em;
+    margin-bottom: 4em; } }
+.languages .desc {
+  margin-top: 60px; }
+.languages .desc h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.languages h3 span {
+  -webkit-opacity: .4;
+  -moz-opacity: .4;
+  opacity: .4;
+  -ms-filter: alpha(opacity=40);
+  filter: alpha(opacity=40);
+  font-size: 16px; }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

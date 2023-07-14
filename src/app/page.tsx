@@ -9,6 +9,7 @@ import Skills from "../component/skills";
 import Experience from "../component/experience";
 import Work from "../component/work";
 import Contact from "../component/contact";
+import Certificates from "@/component/certificates";
 
 export default function Home() {
     return (
@@ -24,10 +25,12 @@ export default function Home() {
                     <div id="colorlib-main">
                         <MyHome/>
                         <About/>
+
                         <Services/>
                         <Skills/>
                         <Education/>
                         <Experience/>
+                        <Certificates/>
                         <Work/>
                         <Contact/>
 
