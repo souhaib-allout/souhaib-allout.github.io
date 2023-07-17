@@ -7,7 +7,7 @@ export default function SidenNav(){
 
             <div className="text-center">
                 <div className="author-img" style={{backgroundImage: "url(images/about.jpg)"}} />
-                <h1 id="colorlib-logo"><a href="index.html">Souhaib ALLOUT</a></h1>
+                <h1 id="colorlib-logo"><a>Souhaib ALLOUT</a></h1>
                 <span className="position">Software Engineer</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
