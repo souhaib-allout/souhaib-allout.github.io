@@ -5,18 +5,18 @@ export default function Work(){
         <section className="colorlib-work" data-section="work">
             <div className="colorlib-narrow-content">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 " data-aos="zoom-out-left">
                         <span className="heading-meta">My Work</span>
-                        <h2 className="colorlib-heading animate-box">Recent Work</h2>
+                        <h2 className="colorlib-heading " data-aos="zoom-out-right">Recent Work</h2>
                     </div>
                 </div>
-                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                <div className="row row-bottom-padded-sm " data-aos="zoom-out-left">
                     <div className="col-md-12">
                         <p className="work-menu"><span><a href="#" className="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div className="col-md-6 " data-aos="zoom-out-left">
                         <div className="project" style={{backgroundImage: "url(images/img-1.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
@@ -31,7 +31,7 @@ export default function Work(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                    <div className="col-md-6 " data-aos="zoom-out-right">
                         <div className="project" style={{backgroundImage: "url(images/img-2.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
@@ -46,7 +46,7 @@ export default function Work(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
+                    <div className="col-md-6 " data-aos="zoom-out-right" data-animate-effect="fadeInTop">
                         <div className="project" style={{backgroundImage: "url(images/img-3.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
@@ -61,7 +61,7 @@ export default function Work(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+                    <div className="col-md-6 " data-aos="zoom-out-right" data-animate-effect="fadeInBottom">
                         <div className="project" style={{backgroundImage: "url(images/img-4.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
@@ -76,7 +76,7 @@ export default function Work(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div className="col-md-6 " data-aos="zoom-out-left">
                         <div className="project" style={{backgroundImage: "url(images/img-5.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
@@ -91,7 +91,7 @@ export default function Work(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                    <div className="col-md-6 " data-aos="zoom-out-right">
                         <div className="project" style={{backgroundImage: "url(images/img-6.jpg)"}}>
                             <div className="desc">
                                 <div className="con">
@@ -108,7 +108,7 @@ export default function Work(){
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12 animate-box">
+                    <div className="col-md-12 " data-aos="zoom-out-right">
                         <p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
                     </div>
                 </div>

@@ -6,17 +6,16 @@ export default function Experience() {
         <section className="colorlib-experience" data-section="experience">
             <div className="colorlib-narrow-content">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                         data-animate-effect="fadeInLeft">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 " data-aos="zoom-out-right">
                         <span className="heading-meta">Experience</span>
-                        <h2 className="colorlib-heading animate-box">Work Experience</h2>
+                        <h2 className="colorlib-heading " data-aos="zoom-out-right">Work Experience</h2>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-12">
                         <div className="timeline-centered">
                             {experiences.map((experience,key)=>
-                                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft" key={key}>
+                                <article className="timeline-entry " data-aos="zoom-out-left" key={key}>
                                     <div className="timeline-entry-inner">
                                         <div className={"timeline-icon color-"+(key+1)}>
                                             <i className="icon-pen2"/>
@@ -31,8 +30,7 @@ export default function Experience() {
                                     </div>
                                 </article>
                             )}
-                            <article className="timeline-entry begin animate-box fadeInUp animated"
-                                     data-animate-effect="fadeInBottom">
+                            <article className="timeline-entry begin " data-aos="zoom-out-right" >
                                 <div className="timeline-entry-inner">
                                     <div className="timeline-icon color-none">
                                     </div>

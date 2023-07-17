@@ -7,14 +7,13 @@ export default function Certificates() {
         <section className="colorlib-education" data-section="certificates">
             <div className="colorlib-narrow-content">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                         data-animate-effect="fadeInLeft">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 " data-aos="zoom-out-right">
                         <span className="heading-meta">Certificates</span>
-                        <h2 className="colorlib-heading animate-box">Certificates</h2>
+                        <h2 className="colorlib-heading ">Certificates</h2>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                    <div className="col-md-12 " data-aos="zoom-out-left">
                         <div className="fancy-collapse-panel">
                             <div className="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
                                 {certificates.map((certificate, key) =>

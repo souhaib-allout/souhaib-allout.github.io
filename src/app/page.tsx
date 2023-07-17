@@ -1,3 +1,5 @@
+"use client";
+
 import SidenNav from "../component/sidenNav";
 
 
@@ -11,7 +13,20 @@ import Work from "../component/work";
 import Contact from "../component/contact";
 import Certificates from "@/component/certificates";
 
+
+import AOS from 'aos';
+
+import 'aos/dist/aos.css'
+// import 'aos/dist/aos.js'
+import {useEffect} from "react";
+
 export default function Home() {
+    useEffect(()=>{
+        AOS.init({
+            duration: 1000,
+            // delay: 200,
+        });
+    })
     return (
 
             <main id="colorlib-page">
@@ -31,7 +46,7 @@ export default function Home() {
                         <Education/>
                         <Experience/>
                         <Certificates/>
-                        <Work/>
+                        {/*<Work/>*/}
                         <Contact/>
 
                     </div>

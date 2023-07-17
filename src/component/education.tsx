@@ -7,14 +7,13 @@ export default function Education() {
         <section className="colorlib-education" data-section="education">
             <div className="colorlib-narrow-content">
                 <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                         data-animate-effect="fadeInLeft">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 " data-aos="zoom-out-right">
                         <span className="heading-meta">Education</span>
-                        <h2 className="colorlib-heading animate-box">Education</h2>
+                        <h2 className="colorlib-heading " data-aos="zoom-out-right">Education</h2>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                    <div className="col-md-12 " data-aos="zoom-out-left">
                         <div className="fancy-collapse-panel">
                             <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 {educations.map((education, key) =>
