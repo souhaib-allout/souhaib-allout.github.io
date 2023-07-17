@@ -22,11 +22,17 @@ export default function RootLayout({
             <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet"/>
 
             {/* Animate.css */}
-            <link rel="stylesheet" href="css/animate.css"/>
+            {/*<link rel="stylesheet" href="css/animate.css"/>*/}
             {/* Icomoon Icon Fonts*/}
             <link rel="stylesheet" href="css/icomoon.css"/>
             {/* Bootstrap  */}
             <link rel="stylesheet" href="css/bootstrap.css"/>
+            {/*<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"*/}
+            {/*      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"*/}
+            {/*      crossOrigin="anonymous"/>*/}
+            {/*    <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"*/}
+            {/*            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"*/}
+            {/*            crossOrigin="anonymous"/>*/}
             {/* Flexslider  */}
             <link rel="stylesheet" href="css/flexslider.css"/>
             {/* Flaticons  */}
@@ -56,6 +62,12 @@ export default function RootLayout({
         {/* jQuery Easing */}
         <Script src="js/jquery.easing.1.3.js"/>
         {/* Bootstrap */}
+        {/*<Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"*/}
+        {/*        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"*/}
+        {/*        crossOrigin="anonymous"/>*/}
+        {/*<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"*/}
+        {/*        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"*/}
+        {/*        crossOrigin="anonymous"/>*/}
         <Script src="js/bootstrap.min.js"/>
         {/* Waypoints */}
         <Script src="js/jquery.waypoints.min.js"/>

@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="first commit">
+    <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="fixing sending mail , and change the animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/email.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/email.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/certificates.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/certificates.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/counter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/languages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/languages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/myHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/myHome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/services.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/sidenNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/sidenNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/work.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +89,7 @@
       <workItem from="1689352885577" duration="1010000" />
       <workItem from="1689354970379" duration="3600000" />
       <workItem from="1689416525687" duration="638000" />
-      <workItem from="1689616719855" duration="7626000" />
+      <workItem from="1689616719855" duration="8970000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689102004770</created>
@@ -210,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689285935643</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixing sending mail , and change the animation">
+      <option name="closed" value="true" />
+      <created>1689630289647</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689630289647</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixing sending mail , and change the animation">
+      <option name="closed" value="true" />
+      <created>1689631136999</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689631136999</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="fixing sending mail , and change the animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing sending mail , and change the animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
