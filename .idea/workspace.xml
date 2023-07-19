@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="fixing sending mail , and change the animation" />
+    <list default="true" id="e951e9ec-fc55-4c1e-8298-7fbe8c2a7c54" name="Default Changelist" comment="fixing sending mail , and change the animation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/email.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/email.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/certificates.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/certificates.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/languages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/languages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/myHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/myHome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/sidenNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/sidenNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/component/work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/mailSender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/service/mailSender.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,30 +59,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/wrk/large projects/portfolio-next/src/component&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\wrk\\large projects\\portfolio-next\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/wrk/large projects/portfolio-next/src/app/component",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "ts.external.directory.path": "D:\\wrk\\large projects\\portfolio-next\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wrk\large projects\portfolio-next\src\app\component" />
+      <recent name="D:\wrk\large projects\portfolio-next\src\app" />
+      <recent name="D:\wrk\large projects\portfolio-next\public\images" />
       <recent name="D:\wrk\large projects\portfolio-next\src\component" />
       <recent name="D:\wrk\large projects\portfolio-next\src\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wrk\large projects\portfolio-next\src\app" />
       <recent name="D:\wrk\large projects\portfolio-next\src" />
-      <recent name="D:\wrk\large projects\portfolio-next\public\files" />
-      <recent name="D:\wrk\large projects\portfolio-next\public\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,6 +117,7 @@
       <workItem from="1689354970379" duration="3600000" />
       <workItem from="1689416525687" duration="638000" />
       <workItem from="1689616719855" duration="9430000" />
+      <workItem from="1689771688406" duration="11044000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1689102004770</created>
@@ -215,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689631612784</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixing sending mail , and change the animation">
+      <option name="closed" value="true" />
+      <created>1689775413881</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689775413881</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,17 +276,6 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="fixing sending mail , and change the animation" />
     <option name="LAST_COMMIT_MESSAGE" value="fixing sending mail , and change the animation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/page.tsx</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

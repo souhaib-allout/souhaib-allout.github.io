@@ -1,4 +1,4 @@
-import languages from '../data/languages';
+import languages from '../../data/languages';
 
 export default function Languages() {
 

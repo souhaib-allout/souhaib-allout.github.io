@@ -43,6 +43,8 @@ export default function RootLayout({
             {/* Theme style  */}
             <link rel="stylesheet" href="css/style.css"/>
 
+            <link rel="stylesheet" href="aos/dist/aos.css"/>
+
             {/* Modernizr JS */}
             <Script src="js/modernizr-2.6.2.min.js"/>
             {/* FOR IE9 below */}
@@ -77,6 +79,8 @@ export default function RootLayout({
         <Script src="js/owl.carousel.min.js"/>
         {/* Counters */}
         <Script src="js/jquery.countTo.js"/>
+
+        <Script src="aos/dist/aos.js"/>
 
         {/*/!* MAIN JS *!/*/}
         <Script src="js/main.js"/>

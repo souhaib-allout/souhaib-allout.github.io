@@ -1,4 +1,3 @@
-// 'use server';
 
 import nodemailer from "nodemailer"
 // const nodemailer = require("nodemailer");
@@ -21,7 +20,7 @@ const smtpOptions = {
     },
 }
 
-export const sendEmail = async (data: EmailPayload) => {
+export const sendMailService = async (data: EmailPayload) => {
     const transporter = nodemailer.createTransport({
         ...smtpOptions
     })

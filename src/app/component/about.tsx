@@ -1,7 +1,6 @@
-'use client'
 
 import {TypeAnimation} from 'react-type-animation';
-import Languages from "@/component/languages";
+import Languages from "@/app/component/languages";
 // import About from "../data/about";
 
 export default function About() {

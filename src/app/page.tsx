@@ -1,32 +1,32 @@
-"use client";
-
-import SidenNav from "../component/sidenNav";
-
-
-import Education from "../component/education";
-import MyHome from "../component/myHome";
-import About from "../component/about";
-import Services from "../component/services";
-import Skills from "../component/skills";
-import Experience from "../component/experience";
-import Work from "../component/work";
-import Contact from "../component/contact";
-import Certificates from "@/component/certificates";
+'use client'
+import SidenNav from "@/app/component/sidenNav";
 
 
-import AOS from 'aos';
+import Education from "@/app/component/education";
+import MyHome from "@/app/component/myHome";
+import About from "@/app/component/about";
+import Services from "@/app/component/services";
+import Skills from "@/app/component/skills";
+import Experience from "@/app/component/experience";
+import Work from "@/app/component/work";
+import Contact from "@/app/component/contact";
+import Certificates from "@/app/component/certificates";
 
 import 'aos/dist/aos.css'
-// import 'aos/dist/aos.js'
+// import {InitializeAos} from "@/app/component/initializeAos";
+// import {useEffect} from "react";
+import AOS from "aos";
 import {useEffect} from "react";
 
-export default function Home() {
+export default function MyApp() {
     useEffect(()=>{
         AOS.init({
             duration: 1000,
             // delay: 200,
         });
-    })
+     })
+    // useAOSInitializer();
+    // InitializeAos()
     return (
 
             <main id="colorlib-page">

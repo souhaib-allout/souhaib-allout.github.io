@@ -1,4 +1,4 @@
-import educations from '../data/educations';
+import educations from '../../data/educations';
 
 
 export default function Education() {
