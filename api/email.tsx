@@ -1,6 +1,7 @@
-'use server';
+// 'use server';
 
 import nodemailer from "nodemailer"
+// const nodemailer = require("nodemailer");
 
 type EmailPayload = {
     from: string,
