@@ -1,91 +1,85 @@
-
 import {TypeAnimation} from 'react-type-animation';
-import Languages from "@/app/component/languages";
+import generalData from "@/data/generalData";
 // import About from "../data/about";
 
 export default function About() {
 
     return (
-        <section className="colorlib-about" data-section="about">
-            <div className="colorlib-narrow-content">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="row row-bottom-padded-sm " data-aos="zoom-out-right">
-                            <div className="col-md-12">
-                                <div className="about-desc">
-                                    <span className="heading-meta">About Us</span>
-                                    <h2 className="colorlib-heading">Who Am I?</h2>
-                                    <p>As a highly skilled software engineer with over two years of professional
-                                        experience, I have a passion for creating innovative and efficient solutions
-                                        that meet the complex challenges of today &apos s technological landscape. With a
-                                        strong foundation in computer science and expertise in multiple programming
-                                        languages, I consistently deliver robust and scalable software applications that
-                                        exceed client expectations.
-
-                                        <br/>
-                                    Throughout my career, I have demonstrated proficiency in full-stack development,
-                                    employing cutting-edge technologies and frameworks to build dynamic and
-                                    user-friendly interfaces. I have successfully collaborated with cross-functional
-                                    teams, leveraging agile methodologies to ensure timely project delivery and
-                                    seamless integration.
-                                        <br/>
-
-                                    My expertise extends beyond development, as I possess a deep understanding of
-                                    software architecture and design principles. This allows me to design elegant
-                                    and modular systems that are easily maintainable and adaptable to future
-                                    requirements. I am well-versed in implementing efficient algorithms and data
-                                    structures, optimizing performance, and debugging complex issues.
-                                        <br/>
-
-                                    Furthermore, I am committed to staying updated with the latest industry trends
-                                    and best practices. I actively participate in continuous learning, attending
-                                    workshops and conferences, and exploring emerging technologies to enhance my
-                                    skill set and deliver cutting-edge solutions.
-                                        <br/>
-
-                                    In addition to my technical skills, I am an effective communicator and a
-                                    collaborative team player. I thrive in dynamic and fast-paced environments,
-                                    where I can contribute my problem-solving abilities and leverage my analytical
-                                    mindset to drive successful outcomes. I approach challenges with a growth
-                                    mindset, always seeking opportunities to learn and improve.
-                                        <br/>
-
-                                    Overall, my portfolio showcases a diverse range of projects that highlight my
-                                    ability to deliver high-quality software solutions from concept to deployment. I
-                                    am excited to continue leveraging my expertise and passion for software
-                                    engineering to tackle new challenges and make a significant impact in the field.
-                                    </p>
-
-                                    {/*<TypeAnimation*/}
-                                    {/*    sequence={[*/}
-
-                                    {/*        `As a highly skilled software engineer with over two years of professional experience, I have a passion for creating innovative and efficient solutions that meet the complex challenges of today\'s technological landscape. With a strong foundation in computer science and expertise in multiple programming languages, I consistently deliver robust and scalable software applications that exceed client expectations.*/}
-
-                                    {/*        Throughout my career, I have demonstrated proficiency in full-stack development, employing cutting-edge technologies and frameworks to build dynamic and user-friendly interfaces. I have successfully collaborated with cross-functional teams, leveraging agile methodologies to ensure timely project delivery and seamless integration.*/}
-                                    {/*        */}
-                                    {/*        My expertise extends beyond development, as I possess a deep understanding of software architecture and design principles. This allows me to design elegant and modular systems that are easily maintainable and adaptable to future requirements. I am well-versed in implementing efficient algorithms and data structures, optimizing performance, and debugging complex issues.*/}
-                                    {/*        */}
-                                    {/*        Furthermore, I am committed to staying updated with the latest industry trends and best practices. I actively participate in continuous learning, attending workshops and conferences, and exploring emerging technologies to enhance my skill set and deliver cutting-edge solutions.*/}
-                                    {/*        */}
-                                    {/*        In addition to my technical skills, I am an effective communicator and a collaborative team player. I thrive in dynamic and fast-paced environments, where I can contribute my problem-solving abilities and leverage my analytical mindset to drive successful outcomes. I approach challenges with a growth mindset, always seeking opportunities to learn and improve.*/}
-                                    {/*        */}
-                                    {/*        Overall, my portfolio showcases a diverse range of projects that highlight my ability to deliver high-quality software solutions from concept to deployment. I am excited to continue leveraging my expertise and passion for software engineering to tackle new challenges and make a significant impact in the field. ` ,*/}
-
-                                    {/*    ]}*/}
-                                    {/*    wrapper="p"*/}
-                                    {/*    cursor={true}*/}
-                                    {/*    speed={99}*/}
-                                    {/*    style={{ display: "inline-block",whiteSpace: "pre-line"}}*/}
-                                    {/*/>*/}
-
+        <>
+            {/* ======= About Section ======= */}
+            <section id="about" className="about">
+                <div className="container" data-aos="fade-up">
+                    <div className="section-title">
+                        <h2>About</h2>
+                        <p>
+                            {generalData.resume}
+                        </p>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4">
+                            <img src="assets/img/profile-img.jpg" className="img-fluid" alt=""/>
+                        </div>
+                        <div className="col-lg-8 pt-4 pt-lg-0 content">
+                            <h3>{generalData.title}</h3>
+                            {/*<p className="fst-italic">*/}
+                            {/*    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do*/}
+                            {/*    eiusmod tempor incididunt ut labore et dolore magna aliqua.*/}
+                            {/*</p>*/}
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/>{" "}
+                                            <strong>Birthday:</strong> <span>{generalData.birthday}</span>
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/>{" "}
+                                            <strong>Website:</strong> <span>{generalData.website}</span>
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/> <strong>Phone:</strong>{" "}
+                                            <span>{generalData.tele}</span>
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/> <strong>City:</strong>{" "}
+                                            <span>{generalData.location}</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/> <strong>Age:</strong>{" "}
+                                            <span>23</span>
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/> <strong>Degree:</strong>{" "}
+                                            <span>{generalData.degree}</span>
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/>{" "}
+                                            <strong>Email:</strong> <span>{generalData.email}</span>
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-chevron-right"/>{" "}
+                                            <strong>Freelance:</strong> <span>Available</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+                            {/*<p>*/}
+                            {/*    Officiis eligendi itaque labore et dolorum mollitia officiis optio*/}
+                            {/*    vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor*/}
+                            {/*    incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime*/}
+                            {/*    officiis quidem quia. Sed et consectetur qui quia repellendus itaque*/}
+                            {/*    neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui*/}
+                            {/*    repellendus omnis culpa magni laudantium dolores.*/}
+                            {/*</p>*/}
                         </div>
                     </div>
                 </div>
-            </div>
-            <Languages/>
-
-        </section>
+            </section>
+            {/* End About Section */}
+        </>
     )
 }

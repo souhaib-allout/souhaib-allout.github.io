@@ -3,47 +3,34 @@
 export default function MyHome() {
 
     return (
-        <section id="colorlib-hero" className="js-fullheight" data-section="home">
-            <div className="flexslider js-fullheight" >
-                <ul className="slides">
-                    <li style={{backgroundImage: "url(images/img_bg_1.jpg)"}}>
-                        <div className="overlay"/>
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div
-                                    className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                                    <div className="slider-text-inner js-fullheight">
-                                        <div className="desc">
-                                            <h1>Hi! <br/>I&apos;m Souhaib</h1>
-                                            <p><a href="./files/souhaib_allout_cv_en.pdf" className="btn btn-primary btn-learn" target="_blank">Download CV <i
-                                                className="icon-download4"/></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li style={{backgroundImage: "url(images/img_bg_2.jpg)"}}>
-                        <div className="overlay"/>
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div
-                                    className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                                    <div className="slider-text-inner">
-                                        <div className="desc">
-                                            <h1 >Welcome  <br/>to my portfolio</h1>
-                                            <p><a href="https://www.linkedin.com/in/souhaib-allout/" target="_blank" className="btn btn-primary btn-learn">
-                                                View My LinkEdin <i
-                                                className="icon-linkedin2"/></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        <>
+            {/* ======= Hero Section ======= */}
+            <section id="hero" className="d-flex flex-column justify-content-center">
+                <div className="container" data-aos="zoom-in" data-aos-delay={100}>
+                    <h1>Souhaib Allout</h1>
+                    <p>
+                        I&apos;m <span
+                            className="typed"
+                            data-typed-items=" Java software engineer, Php software engineer, Full stack software engineer"
+                        />
+                    </p>
+                    <div className="social-links">
+                        <a href="#" className="linkedin">
+                            <i className="bx bxl-linkedin" />
+                        </a>
+                        <a href="#" className="google-plus">
+                            <i className="bx bxl-skype" />
+                        </a>
+
+                        <a href="#" className="google-plus">
+                            <i className="bx bxl-github" />
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+            {/* End Hero */}
+        </>
 
     )
 }

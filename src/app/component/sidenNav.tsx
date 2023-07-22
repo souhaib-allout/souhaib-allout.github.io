@@ -2,39 +2,49 @@
 
 export default function SidenNav(){
     return (
-
-        <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
-
-            <div className="text-center">
-                <div className="author-img" style={{backgroundImage: "url(images/about.jpg)"}} />
-                <h1 id="colorlib-logo"><a>Souhaib ALLOUT</a></h1>
-                <span className="position">Software Engineer</span>
-            </div>
-            <nav id="colorlib-main-menu" role="navigation" className="navbar">
-                <div id="navbar" className="collapse">
+        <>
+            {/* ======= Mobile nav toggle button ======= */}
+            {/* <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> */}
+            <i className="bi bi-list mobile-nav-toggle d-lg-none" />
+            {/* ======= Header ======= */}
+            <header id="header" className="d-flex flex-column justify-content-center">
+                <nav id="navbar" className="navbar nav-menu">
                     <ul>
-                        <li className="active"><a href="#" data-nav-section="home">Home</a></li>
-                        <li><a href="#" data-nav-section="about">About</a></li>
-                        <li><a href="#" data-nav-section="services">Services</a></li>
-                        <li><a href="#" data-nav-section="skills">Skills</a></li>
-                        <li><a href="#" data-nav-section="education">Education</a></li>
-                        <li><a href="#" data-nav-section="experience">Experience</a></li>
-                        <li><a href="#" data-nav-section="certificates">Certificates</a></li>
-                        {/*<li><a href="#" data-nav-section="languages">Languages</a></li>*/}
-                        {/*<li><a href="#" data-nav-section="work">Work</a></li>*/}
-                        <li><a href="#" data-nav-section="contact">Contact</a></li>
+                        <li>
+                            <a href="#hero" className="nav-link scrollto active">
+                                <i className="bx bx-home" /> <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" className="nav-link scrollto">
+                                <i className="bx bx-user" /> <span>About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#resume" className="nav-link scrollto">
+                                <i className="bx bx-file-blank" /> <span>Resume</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" className="nav-link scrollto">
+                                <i className="bx bx-book-content" /> <span>Portfolio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services" className="nav-link scrollto">
+                                <i className="bx bx-server" /> <span>Services</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" className="nav-link scrollto">
+                                <i className="bx bx-envelope" /> <span>Contact</span>
+                            </a>
+                        </li>
                     </ul>
-                </div>
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/souhaib-allout/" target="_blank"><i className="icon icon-social-linkedin" style={{'fontSize':'30px'}}/></a>
-                        <a href="https://github.com/souhaib-allout" target="_blank"><i className="icon icon-social-github" style={{'fontSize':'30px'}}/></a>
-                    </li>
-
-                </ul>
-
-            </nav>
-
-        </aside>
+                </nav>
+                {/* .nav-menu */}
+            </header>
+            {/* End Header */}
+        </>
     )
 }

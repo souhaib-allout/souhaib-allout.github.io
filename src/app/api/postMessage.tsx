@@ -11,6 +11,7 @@ export default async function postMessage(req : any, res :any) {
 
 
     try {
+        req.date=new Date().toLocaleString();
             const docRef = await addDoc(collection(firestore, "message"), req);
             return {'code':200, 'message' : 'Your message has been sent successfully! I will respond promptly. Thank you for reaching out!'};
             // res.status(200).json({ id: docRef.id, ...req });

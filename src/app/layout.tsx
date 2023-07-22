@@ -18,72 +18,37 @@ export default function RootLayout({
     return (
         <html lang="en">
         <head>
-            <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"/>
-            <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet"/>
+            <link
+                href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+                rel="stylesheet"/>
 
-            {/* Animate.css */}
-            {/*<link rel="stylesheet" href="css/animate.css"/>*/}
-            {/* Icomoon Icon Fonts*/}
-            <link rel="stylesheet" href="css/icomoon.css"/>
-            {/* Bootstrap  */}
-            <link rel="stylesheet" href="css/bootstrap.css"/>
-            {/*<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"*/}
-            {/*      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"*/}
-            {/*      crossOrigin="anonymous"/>*/}
-            {/*    <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"*/}
-            {/*            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"*/}
-            {/*            crossOrigin="anonymous"/>*/}
-            {/* Flexslider  */}
-            <link rel="stylesheet" href="css/flexslider.css"/>
-            {/* Flaticons  */}
-            {/*<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">*/}
-            {/* Owl Carousel */}
-            <link rel="stylesheet" href="css/owl.carousel.min.css"/>
-            <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
-            {/* Theme style  */}
-            <link rel="stylesheet" href="css/style.css"/>
+            <link href="assets/vendor/aos/aos.css" rel="stylesheet"/>
+            <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+            <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+            <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+            <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+            <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
-            <link rel="stylesheet" href="aos/dist/aos.css"/>
-
-            {/* Modernizr JS */}
-            <Script src="js/modernizr-2.6.2.min.js"/>
-            {/* FOR IE9 below */}
-            {/*[if lt IE 9]>
-                <Script src="js/respond.min.js"/>
-                <![endif]*/}
+            <link href="assets/css/style.css" rel="stylesheet"/>
 
         </head>
 
         <body className={inter.className}>
 
-            {children}
+        {children}
         </body>
 
-        {/* jQuery */}
-        <Script src="js/jquery.min.js"/>
-        {/* jQuery Easing */}
-        <Script src="js/jquery.easing.1.3.js"/>
-        {/* Bootstrap */}
-        {/*<Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"*/}
-        {/*        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"*/}
-        {/*        crossOrigin="anonymous"/>*/}
-        {/*<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"*/}
-        {/*        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"*/}
-        {/*        crossOrigin="anonymous"/>*/}
-        <Script src="js/bootstrap.min.js"/>
-        {/* Waypoints */}
-        <Script src="js/jquery.waypoints.min.js"/>
-        {/* Flexslider */}
-        <Script src="js/jquery.flexslider-min.js"/>
-        {/* Owl carousel */}
-        <Script src="js/owl.carousel.min.js"/>
-        {/* Counters */}
-        <Script src="js/jquery.countTo.js"/>
+        <Script src="assets/vendor/purecounter/purecounter_vanilla.js"/>
+        <Script src="assets/vendor/aos/aos.js"/>
+        <Script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"/>
+        <Script src="assets/vendor/glightbox/js/glightbox.min.js"/>
+        <Script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"/>
+        <Script src="assets/vendor/swiper/swiper-bundle.min.js"/>
+        <Script src="assets/vendor/typed.js/typed.umd.js"/>
+        <Script src="assets/vendor/waypoints/noframework.waypoints.js"/>
+        <Script src="assets/vendor/php-email-form/validate.js"/>
 
-        <Script src="aos/dist/aos.js"/>
-
-        {/*/!* MAIN JS *!/*/}
-        <Script src="js/main.js"/>
+        <Script src="assets/js/main.js"/>
 
         </html>
     )
