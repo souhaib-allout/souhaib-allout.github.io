@@ -308,5 +308,4 @@
 		owlCrouselFeatureSlide();
 	});
 
-
 }());
