@@ -25,11 +25,11 @@ export default function SidenNav(){
                                 <i className="bx bx-file-blank" /> <span>Resume</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="#portfolio" className="nav-link scrollto">
-                                <i className="bx bx-book-content" /> <span>Portfolio</span>
-                            </a>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <a href="#portfolio" className="nav-link scrollto">*/}
+                        {/*        <i className="bx bx-book-content" /> <span>Portfolio</span>*/}
+                        {/*    </a>*/}
+                        {/*</li>*/}
                         <li>
                             <a href="#services" className="nav-link scrollto">
                                 <i className="bx bx-server" /> <span>Services</span>

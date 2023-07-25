@@ -21,10 +21,9 @@ export default function About() {
                         </div>
                         <div className="col-lg-8 pt-4 pt-lg-0 content">
                             <h3>{generalData.title}</h3>
-                            {/*<p className="fst-italic">*/}
-                            {/*    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do*/}
-                            {/*    eiusmod tempor incididunt ut labore et dolore magna aliqua.*/}
-                            {/*</p>*/}
+                            <p className="fst-italic">
+                                {generalData.resume2}
+                            </p>
                             <div className="row">
                                 <div className="col-lg-6">
                                     <ul>
@@ -62,7 +61,7 @@ export default function About() {
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"/>{" "}
-                                            <strong>Freelance:</strong> <span>Available</span>
+                                            <strong>Cv:</strong> <span><a href="assets/files/souhaib_allout_cv_en.pdf" target="_blank">Download</a> </span>
                                         </li>
                                     </ul>
                                 </div>

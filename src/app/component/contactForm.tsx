@@ -4,13 +4,16 @@
 // import sendMail from "@/app/service/mailSender";
 import {Formik, Form, Field} from 'formik';
 import * as Yup from 'yup';
-import React, {startTransition} from "react";
+import React, {startTransition, useState} from "react";
 import sendMail from "@/app/service/mailSender";
 import postMessage from "@/app/api/postMessage";
 import getMessage from "@/app/api/getMessage";
+import {array} from "yup";
 
 
 export default function ContactForm() {
+
+    const [showSuccess, setShowSuccess] = useState(false);
     const SignupSchema = Yup.object().shape({
         name: Yup.string()
             .min(2, 'Too Short!')
@@ -38,9 +41,19 @@ export default function ContactForm() {
             validationSchema={SignupSchema}
             onSubmit={values => {
                 // same shape as initial values
-                console.log(values);
-                const result = postMessage(values, null);
-                console.log(result);
+                const result = postMessage(values, null)
+                    .then((res) => {
+                        if(res?.code==200){
+                            setShowSuccess(true)
+                        }
+                        else{
+                            setShowSuccess(false)
+                        }
+                    }).catch((error) => {
+                        setShowSuccess(false)
+                    });
+
+                // console.log(result.valueOf().PromiseResult);
                 // children?.sendMail(values)
                 // startTransition(() => sendMail(values))
             }}
@@ -83,14 +96,15 @@ export default function ContactForm() {
 
                     </div>
                     <div className="my-3">
-                        <div className="loading">Loading</div>
                         <div className="error-message"/>
-                        <div className="sent-message">
-                            Your message has been sent. Thank you!
-                        </div>
+                        {showSuccess &&
+                            <div className="sent-message ">
+                                Your message has been sent. Thank you!
+                            </div>
+                        }
                     </div>
                     <div className="text-center">
-                        <button  type='submit'>
+                        <button type='submit'>
                             Send Message
                         </button>
                     </div>

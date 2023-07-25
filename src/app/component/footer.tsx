@@ -1,3 +1,5 @@
+import generalData from "@/data/generalData";
+
 export default function Footer() {
 
     return (
@@ -5,16 +7,20 @@ export default function Footer() {
             <div className="container">
                 <h3>Souhaib Allout</h3>
                 <div className="social-links">
-                    <a href="#" className="linkedin">
+                    <a href={generalData.linkedin_link} className="linkedin" target="_blank">
                         <i className="bx bxl-linkedin" />
                     </a>
-                    <a href="#" className="google-plus">
+                    <a href={generalData.skype_link} target="_blank">
                         <i className="bx bxl-skype" />
                     </a>
 
-                    <a href="#" className="google-plus">
+                    <a href={generalData.github_link} target="_blank">
                         <i className="bx bxl-github" />
                     </a>
+                    <a href="assets/files/souhaib_allout_cv_en.pdf" target="_blank">
+                        <i className="bx bxs-file-blank" />
+                    </a>
+
                 </div>
                 <div className="copyright">
                     © Copyright{" "}

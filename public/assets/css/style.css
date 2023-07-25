@@ -146,7 +146,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .nav-menu {
   padding: 0;
@@ -233,7 +233,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   position: fixed;
@@ -493,6 +493,7 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #45505b;
+  font-size: 15px;
 }
 
 .skills .progress .skill .val {
@@ -1082,7 +1083,7 @@ section {
 }
 
 .contact .php-email-form .sent-message {
-  display: none;
+  /*display: none;*/
   color: #fff;
   background: #18d26e;
   text-align: center;
@@ -1090,24 +1091,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
 
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
@@ -1138,15 +1122,6 @@ section {
   background: #0678e3;
 }
 
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Footer
