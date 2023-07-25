@@ -16,7 +16,7 @@ const generalData =
         'tele': '+212 771705545',
         'website': 'www.souhaib-allout.com',
         'linkedin_link': 'https://www.linkedin.com/in/souhaib-allout/',
-        'github_link': 'https://www.linkedin.com/in/souhaib-allout/',
+        'github_link': 'https://github.com/souhaib-allout',
         'skype_link': 'https://join.skype.com/invite/IOeuOV00RxeG',
         'degree': 'Software Engineering',
         'location': 'Morocco',
