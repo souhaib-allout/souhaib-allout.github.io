@@ -7,10 +7,7 @@ import MyHome from "@/app/component/myHome";
 import About from "@/app/component/about";
 import Services from "@/app/component/services";
 import Skills from "@/app/component/skills";
-import Experience from "@/app/component/experience";
-import Work from "@/app/component/work";
 import Contact from "@/app/component/contact";
-import Certificates from "@/app/component/certificates";
 
 import 'aos/dist/aos.css'
 // import {InitializeAos} from "@/app/component/initializeAos";
