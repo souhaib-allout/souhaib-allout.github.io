@@ -1,8 +1,34 @@
+import moment from "moment";
+
+const targetDate = new moment('2023-09-01');
+const today = new moment();
+
+const diffDuration = moment.duration(today.diff(targetDate));
+
+const yearsDifference = diffDuration.years();
+const monthsDifference = diffDuration.months();
+
 const experiences = [
+    {
+        'position': 'Software Engineer and Development Study',
+        'entreprise': 'EURAFRIC INFORMATION · Full-time',
+        'duration': 'Sep 2023 - Present · '+(yearsDifference>0 ? (yearsDifference +' year ') : ' ')+monthsDifference+' months' ,
+        'mode': 'Hybird',
+        'missions': [
+        //     'Responsible for managing the IT department, ensuring smooth operation and efficient functioning of the systems.',
+        //     'Designing and architecting software systems, taking into account scalability, performance, and security considerations.',
+        //     'Developing and coding software applications using Spring boot .',
+        //     'Conducting thorough testing and debugging to ensure the quality and reliability of the software.',
+        //     'Taking charge of database administration, including database design, optimization, and maintenance.',
+        //     'Providing technical support and troubleshooting assistance to resolve software and system issues.',
+        //     'Staying updated with the latest industry trends, technologies, and best practices to continuously improve software development processes and methodologies.',
+        ]
+    },
+
     {
         'position': 'Software Engineer',
         'entreprise': 'VOYAGES FALHI-ESPACE-TOURISME · Full-time',
-        'duration': 'Nov 2021 - Present · 1 yr 9 mos',
+        'duration': 'Nov 2021 - Aug 2023 · 2 years & 5 months' ,
         'mode': 'Remote',
         'missions': [
             'Responsible for managing the IT department, ensuring smooth operation and efficient functioning of the systems.',
@@ -17,7 +43,7 @@ const experiences = [
     {
         'position': 'Web Developer',
         'entreprise': 'Softechers · Full-time',
-        'duration': 'Dec 2020 - Mar 2021 · 4 mos',
+        'duration': 'Dec 2020 - Mar 2021 · 4 months',
         'mode': 'On-site',
         'missions': [
             'Collaborating with the team to understand business requirements and translate them into functional website templates.',
@@ -32,7 +58,7 @@ const experiences = [
     {
         'position': 'Web Developer',
         'entreprise': 'VIGON SYSTEMS · Internship',
-        'duration': 'Nov 2020 · 1 mo',
+        'duration': 'Nov 2020 · 1 month',
         'mode': 'On-site',
         'missions': [
 
@@ -46,7 +72,7 @@ const experiences = [
     {
         'position': 'Web Developer',
         'entreprise': 'Engenering Inside · Internship',
-        'duration': 'Apr 2020 - May 2020 · 2 mosApr',
+        'duration': 'Apr 2020 - May 2020 · 2 months',
         'mode': 'On-site',
         'missions': [
 
