@@ -5,8 +5,6 @@ import generalData from "@/data/generalData";
 export default function About() {
 
     return (
-        <>
-            {/* ======= About Section ======= */}
             <section id="about" className="about">
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
@@ -78,7 +76,5 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            {/* End About Section */}
-        </>
     )
 }

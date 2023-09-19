@@ -13,13 +13,17 @@
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "aos": "^2.3.4",
+    "bootstrap": "^5.3.1",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
     "firebase": "^10.1.0",
     "formik": "^2.4.2",
+    "isotope-layout": "^3.0.6",
+    "moment": "^2.29.4",
     "next": "13.4.9",
     "nodemailer": "^6.9.3",
     "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "18.2.0",
     "react-type-animation": "^3.1.0",
     "typescript": "5.1.6",
@@ -27,6 +31,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
+    "@types/isotope-layout": "^3.0.9",
     "@types/nodemailer": "^6.4.8"
   }
 }

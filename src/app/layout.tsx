@@ -2,6 +2,7 @@
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import Script from 'next/script'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const inter = Inter({subsets: ['latin']})
 
@@ -23,7 +24,7 @@ export default function RootLayout({
                 rel="stylesheet"/>
 
             <link href="assets/vendor/aos/aos.css" rel="stylesheet"/>
-            <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+            {/*<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>*/}
             <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
             <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
             <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
@@ -46,9 +47,8 @@ export default function RootLayout({
         <Script src="assets/vendor/swiper/swiper-bundle.min.js"/>
         <Script src="assets/vendor/typed.js/typed.umd.js"/>
         <Script src="assets/vendor/waypoints/noframework.waypoints.js"/>
-        <Script src="assets/vendor/php-email-form/validate.js"/>
 
-        <Script src="assets/js/main.js"/>
+        <Script src="assets/js/main.js" />
 
         </html>
     )

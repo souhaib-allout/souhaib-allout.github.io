@@ -15,6 +15,7 @@ import 'aos/dist/aos.css'
 import AOS from "aos";
 import {useEffect} from "react";
 import Footer from "@/app/component/footer";
+import Projects from "@/app/component/projects";
 
 export default function MyApp() {
     useEffect(() => {
@@ -44,6 +45,7 @@ export default function MyApp() {
                     <Skills/>
 
                     <Education/>
+                    <Projects/>
 
                     <Services/>
 
