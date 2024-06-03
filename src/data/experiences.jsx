@@ -10,25 +10,24 @@ const monthsDifference = diffDuration.months();
 
 const experiences = [
     {
-        'position': 'Software Engineer and Development Study',
+        'position': 'Spring boot/React Software Engineer and Development Study',
         'entreprise': 'EURAFRIC INFORMATION · Full-time',
-        'duration': 'Sep 2023 - Present · '+(yearsDifference>0 ? (yearsDifference +' year ') : ' ')+monthsDifference+' months' ,
+        'duration': 'Sep 2023 - Present · ' + (yearsDifference > 0 ? (yearsDifference + ' year ') : ' ') + monthsDifference + ' months',
         'mode': 'Hybird',
         'missions': [
-            //     'Responsible for managing the IT department, ensuring smooth operation and efficient functioning of the systems.',
-            'Designing and architecting software systems, taking into account scalability, performance, and security considerations.',
             'Developing and coding software applications using React & Spring boot .',
-            //     'Conducting thorough testing and debugging to ensure the quality and reliability of the software.',
-            //     'Taking charge of database administration, including database design, optimization, and maintenance.',
-            //     'Providing technical support and troubleshooting assistance to resolve software and system issues.',
-            //     'Staying updated with the latest industry trends, technologies, and best practices to continuously improve software development processes and methodologies.',
+            'Designing and architecting software systems, taking into account scalability, performance, and security considerations.',
+            'developing and maintaining batch jobs using the Spring Batch framework .',
+            'Analyze and resolve software bugs .',
+            'Conducting thorough testing and debugging to ensure the quality and reliability of the software.',
+            'Providing technical support and troubleshooting assistance to resolve software and system issues.',
         ]
     },
 
     {
         'position': 'Software Engineer',
         'entreprise': 'VOYAGES FALHI-ESPACE-TOURISME · Full-time',
-        'duration': 'Nov 2021 - Aug 2023 · 2 years & 5 months' ,
+        'duration': 'Nov 2021 - Aug 2023 · 2 years & 5 months',
         'mode': 'Remote',
         'missions': [
             'Responsible for managing the IT department, ensuring smooth operation and efficient functioning of the systems.',

@@ -13,7 +13,7 @@ export default function MyHome() {
                     <p>
                         I&apos;m <span
                             className="typed"
-                            data-typed-items=" Java software engineer, Php software engineer, Full stack software engineer"
+                            data-typed-items="Java software engineer,React software engineer,Full stack software engineer"
                         />
                     </p>
                     <div className="social-links">

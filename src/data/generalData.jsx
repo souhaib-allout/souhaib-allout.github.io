@@ -2,7 +2,7 @@ const generalData =
 
 
     {
-        'resume': 'Highly skilled software engineer with over two years of professional experience. Passionate ' +
+        'resume': 'Highly skilled software engineer with over 3 years of professional experience. Passionate ' +
             'about creating innovative and efficient solutions to tackle today\'s technological challenges. ' +
             'Proficient in full-stack development, employing cutting-edge technologies and agile methodologies to ' +
             'deliver robust and scalable software applications. Deep understanding of software architecture and ' +
@@ -11,12 +11,12 @@ const generalData =
             'collaborative',
         'resume2': 'As a software engineer, I thrive on the challenge of solving complex problems and turning ideas into reality. With a strong background in full-stack development, I am passionate about creating seamless and user-friendly applications that make a positive impact. I believe in continuous learning and constantly exploring emerging technologies to stay at the forefront of the ever-evolving tech landscape. My dedication to clean and efficient code, coupled with effective communication and collaboration skills, enables me to work effectively both independently and as part of a team.',
 
-        'title': 'Java/Php Software engineer',
+        'title': 'Java/Spring boot & React Software engineer',
         'email': 'del.souhaib@gmail.com',
         'tele': '+212 771705545',
         'website': 'www.souhaib-allout.com',
         'linkedin_link': 'https://www.linkedin.com/in/souhaib-allout/',
-        'github_link': 'https://www.linkedin.com/in/souhaib-allout/',
+        'github_link': 'https://github.com/souhaib-allout',
         'skype_link': 'https://join.skype.com/invite/IOeuOV00RxeG',
         'degree': 'Software Engineering',
         'location': 'Morocco',

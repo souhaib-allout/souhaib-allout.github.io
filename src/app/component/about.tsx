@@ -49,7 +49,7 @@ export default function About() {
                                     <ul>
                                         <li>
                                             <i className="bi bi-chevron-right"/> <strong>Age:</strong>{" "}
-                                            <span>23</span>
+                                            <span>24</span>
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"/> <strong>Degree:</strong>{" "}
