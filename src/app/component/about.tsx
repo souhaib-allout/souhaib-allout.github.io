@@ -24,13 +24,9 @@ export default function About() {
                             <p className="fst-italic">
                                 {generalData.resume2}
                             </p>
-                            <div className="row">
+                            <div className="row mt-5">
                                 <div className="col-lg-6">
                                     <ul>
-                                        <li>
-                                            <i className="bi bi-chevron-right"/>{" "}
-                                            <strong>Birthday:</strong> <span>{generalData.birthday}</span>
-                                        </li>
                                         <li>
                                             <i className="bi bi-chevron-right"/>{" "}
                                             <strong>Website:</strong> <span>{generalData.website}</span>
@@ -40,28 +36,27 @@ export default function About() {
                                             <span>{generalData.tele}</span>
                                         </li>
                                         <li>
-                                            <i className="bi bi-chevron-right"/> <strong>City:</strong>{" "}
-                                            <span>{generalData.location}</span>
+                                            <i className="bi bi-chevron-right"/>{" "}
+                                            <strong>Cv:</strong> <span><a
+                                            href="assets/files/souhaib_allout_resume_en.pdf"
+                                            target="_blank">Download</a> </span>
                                         </li>
+
                                     </ul>
                                 </div>
                                 <div className="col-lg-6">
                                     <ul>
                                         <li>
-                                            <i className="bi bi-chevron-right"/> <strong>Age:</strong>{" "}
-                                            <span>24</span>
-                                        </li>
-                                        <li>
-                                            <i className="bi bi-chevron-right"/> <strong>Degree:</strong>{" "}
-                                            <span>{generalData.degree}</span>
+                                            <i className="bi bi-chevron-right"/> <strong>Linkedin:</strong>{" "}
+                                            <a href={generalData.linkedin_link}>Click here</a>
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"/>{" "}
                                             <strong>Email:</strong> <span>{generalData.email}</span>
                                         </li>
                                         <li>
-                                            <i className="bi bi-chevron-right"/>{" "}
-                                            <strong>Cv:</strong> <span><a href="assets/files/souhaib_allout_cv_en.pdf" target="_blank">Download</a> </span>
+                                            <i className="bi bi-chevron-right"/> <strong>Location:</strong>{" "}
+                                            <span>{generalData.location}</span>
                                         </li>
                                     </ul>
                                 </div>

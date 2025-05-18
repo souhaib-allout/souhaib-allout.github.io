@@ -13,15 +13,11 @@ export default function Skills() {
                             {generalData.skills_presentation}
                         </p>
                     </div>
-                    <div className="row skills-content">
+                    <div className="d-flex justify-content-center flex-wrap skills-content gap-3 my-3" style={{fontSize: '18px', fontWeight :'bold'}}>
                         {skills.map((skill, key) =>
-                            <div className="col-lg-6" key={key}>
-                                <div className="progress">
-                                    <p className="skill">
-                                        {skill.name}
-                                    </p>
-                                </div>
-                            </div>
+                            <span className="skill" key={key}>
+                                {skill.name} {key != skills.length-1 && ','}
+                            </span>
                         )}
                     </div>
                 </div>

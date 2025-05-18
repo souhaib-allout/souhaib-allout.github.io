@@ -4,7 +4,7 @@ import experiences from "@/data/experiences";
 import certificates from "@/data/certificates";
 
 
-export default function Education() {
+export default function EducationAndExperience() {
 
     return (
         <>
@@ -17,6 +17,27 @@ export default function Education() {
                         </p>
                     </div>
                     <div className="row">
+                        <div className="col-lg-6">
+                            <h3 className="resume-title">Professional Experience</h3>
+                            {experiences.map((experience, key) =>
+                                <div className="resume-item" key={key}>
+                                    <h4>{experience.position}</h4>
+                                    <h5>{experience.duration}</h5>
+                                    <p>
+                                        <em>{experience.entreprise} </em>
+                                    </p>
+                                    <ul>
+                                        {experience.missions.map((mission: string, key2: number) =>
+                                            <li key={key2}>
+                                                {mission}
+                                            </li>
+                                        )}
+                                    </ul>
+                                </div>
+                            )}
+                            <div className="resume-item">
+                            </div>
+                        </div>
                         <div className="col-lg-6">
                             <h3 className="resume-title">Education</h3>
                             {educations.map((education, key) =>
@@ -49,27 +70,6 @@ export default function Education() {
                             <div className="resume-item">
                             </div>
 
-                        </div>
-                        <div className="col-lg-6">
-                            <h3 className="resume-title">Professional Experience</h3>
-                            {experiences.map((experience, key) =>
-                                <div className="resume-item" key={key}>
-                                    <h4>{experience.position}</h4>
-                                    <h5>{experience.duration}</h5>
-                                    <p>
-                                        <em>{experience.entreprise}, {experience.mode} </em>
-                                    </p>
-                                    <ul>
-                                        {experience.missions.map((mission: string, key2: number) =>
-                                            <li key={key2}>
-                                                {mission}
-                                            </li>
-                                        )}
-                                    </ul>
-                                </div>
-                            )}
-                            <div className="resume-item" >
-                            </div>
                         </div>
                     </div>
                 </div>

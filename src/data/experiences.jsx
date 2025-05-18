@@ -3,32 +3,30 @@ import moment from "moment";
 const targetDate = new moment('2023-09-01');
 const today = new moment();
 
-const diffDuration = moment.duration(today.diff(targetDate));
+const diffDuration = moment.duration(today.diff(targetDate)).add(1,'month');
 
 const yearsDifference = diffDuration.years();
 const monthsDifference = diffDuration.months();
 
 const experiences = [
     {
-        'position': 'Spring boot/React Software Engineer and Development Study',
-        'entreprise': 'EURAFRIC INFORMATION · Full-time',
+        'position': 'Spring boot/React Software Engineer',
+        'entreprise': 'EURAFRIC INFORMATION  · Casablanca, Morocco',
         'duration': 'Sep 2023 - Present · ' + (yearsDifference > 0 ? (yearsDifference + ' year ') : ' ') + monthsDifference + ' months',
-        'mode': 'Hybird',
         'missions': [
-            'Developing and coding software applications using React & Spring boot .',
-            'Designing and architecting software systems, taking into account scalability, performance, and security considerations.',
-            'developing and maintaining batch jobs using the Spring Batch framework .',
-            'Analyze and resolve software bugs .',
-            'Conducting thorough testing and debugging to ensure the quality and reliability of the software.',
-            'Providing technical support and troubleshooting assistance to resolve software and system issues.',
+            'Led multiple projects from conception to delivery .',
+            'Collaborated with a cross-functional team to develop scalable enterprise software solutions, ensuring efficient system performance and reliability\n',
+            'Designed and maintained complex batch processing workflows using Spring Batch, streamlining data handling for critical operations',
+            'Diagnosed and resolved software issues and bugs, minimizing disruptions and enhancing system stability',
+            'Supervised and mentored a team of interns throughout development projects',
+            'Deployed projects using various tools such as WebSphere, Jenkins, and command-line interfaces',
         ]
     },
 
     {
         'position': 'Software Engineer',
-        'entreprise': 'VOYAGES FALHI-ESPACE-TOURISME · Full-time',
+        'entreprise': 'VOYAGES FALHI-ESPACE-TOURISME · Marseille - France (Remote)',
         'duration': 'Nov 2021 - Aug 2023 · 2 years & 5 months',
-        'mode': 'Remote',
         'missions': [
             'Responsible for managing the IT department, ensuring smooth operation and efficient functioning of the systems.',
             'Designing and architecting software systems, taking into account scalability, performance, and security considerations.',
@@ -41,9 +39,8 @@ const experiences = [
     },
     {
         'position': 'Web Developer',
-        'entreprise': 'Softechers · Full-time',
+        'entreprise': 'Softechers · Marrakech - Morocco',
         'duration': 'Dec 2020 - Mar 2021 · 4 months',
-        'mode': 'On-site',
         'missions': [
             'Collaborating with the team to understand business requirements and translate them into functional website templates.',
 
@@ -54,40 +51,6 @@ const experiences = [
             'Writing clean and maintainable code following industry best practices and coding standards.',
         ]
     },
-    {
-        'position': 'Web Developer',
-        'entreprise': 'VIGON SYSTEMS · Internship',
-        'duration': 'Nov 2020 · 1 month',
-        'mode': 'On-site',
-        'missions': [
-
-            'Collaborating with the development team to understand the requirements for adding new functionalities to the existing website',
-
-            'Integrating the new functionalities seamlessly into the existing website\'s architecture.',
-
-            'Adhering to coding standards and best practices to maintain clean and maintainable code.'
-        ]
-    },
-    {
-        'position': 'Web Developer',
-        'entreprise': 'Engenering Inside · Internship',
-        'duration': 'Apr 2020 - May 2020 · 2 months',
-        'mode': 'On-site',
-        'missions': [
-
-            'Collaborating with the team to understand client requirements and translate them into visually appealing website templates.',
-
-            'Using HTML, CSS, and JavaScript to design and develop responsive and user-friendly website templates.',
-
-            'Implementing the designed templates into the WordPress content management system.',
-
-            'Customizing and configuring WordPress themes and plugins to meet client specifications.',
-
-            'Collaborating with the design team to ensure a seamless integration of UI/UX designs into the website templates.',
-
-        ]
-    },
-
 ]
 
 export default experiences;

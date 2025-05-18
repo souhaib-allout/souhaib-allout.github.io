@@ -2,8 +2,8 @@
 import SidenNav from "@/app/component/sidenNav";
 
 
-import Education from "@/app/component/education";
-import MyHome from "@/app/component/myHome";
+import EducationAndExperience from "@/app/component/educationAndExperience";
+import Header from "@/app/component/header";
 import About from "@/app/component/about";
 import Services from "@/app/component/services";
 import Skills from "@/app/component/skills";
@@ -15,6 +15,7 @@ import 'aos/dist/aos.css'
 import AOS from "aos";
 import {useEffect} from "react";
 import Footer from "@/app/component/footer";
+import Projects from "@/app/component/projects";
 
 export default function MyApp() {
     useEffect(() => {
@@ -35,7 +36,7 @@ export default function MyApp() {
 
                 <SidenNav/>
 
-                <MyHome/>
+                <Header/>
 
                 <main>
 
@@ -43,12 +44,12 @@ export default function MyApp() {
 
                     <Skills/>
 
-                    <Education/>
+                    <EducationAndExperience/>
+
+                    <Projects/>
 
                     <Services/>
 
-
-                    {/*<Work/>*/}
                     <Contact/>
                 </main>
                 <Footer/>

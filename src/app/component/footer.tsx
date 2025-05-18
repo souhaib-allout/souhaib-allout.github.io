@@ -17,7 +17,7 @@ export default function Footer() {
                     <a href={generalData.github_link} target="_blank">
                         <i className="bx bxl-github" />
                     </a>
-                    <a href="assets/files/souhaib_allout_cv_en.pdf" target="_blank">
+                    <a href="assets/files/souhaib_allout_resume_en.pdf" target="_blank">
                         <i className="bx bxs-file-blank" />
                     </a>
 

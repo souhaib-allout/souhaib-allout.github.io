@@ -2,7 +2,7 @@ const generalData =
 
 
     {
-        'resume': 'Highly skilled software engineer with over 3 years of professional experience. Passionate ' +
+        'resume': 'Highly skilled software engineer with over 4 years of professional experience. Passionate ' +
             'about creating innovative and efficient solutions to tackle today\'s technological challenges. ' +
             'Proficient in full-stack development, employing cutting-edge technologies and agile methodologies to ' +
             'deliver robust and scalable software applications. Deep understanding of software architecture and ' +
