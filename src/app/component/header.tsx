@@ -9,7 +9,7 @@ export default function Header() {
                 <div className="container" data-aos="zoom-in" data-aos-delay={100}>
                     <h1>Souhaib Allout</h1>
                     <p className="text-primary">
-                        Java / React Software Engineer
+                        Java/React/Angular Software Engineer
                         {/*I&apos;m <span*/}
                         {/*    className="typed"*/}
                         {/*    data-typed-items="Java software engineer,React software engineer,Full stack software engineer"*/}

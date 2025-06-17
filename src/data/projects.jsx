@@ -1,13 +1,3 @@
-import moment from "moment";
-
-const targetDate = new moment('2023-09-01');
-const today = new moment();
-
-const diffDuration = moment.duration(today.diff(targetDate)).add(1, 'month');
-
-const yearsDifference = diffDuration.years();
-const monthsDifference = diffDuration.months();
-
 const projects = [
     {
         'title': 'Open a bank account entirely online.',
@@ -108,6 +98,16 @@ const projects = [
         'tools': [
             'Frontend: Next js, Redux, TypeScript, npm',
             'Other: Git, Trello, Vercel',
+        ]
+    },
+    {
+        'title': 'Hotel Reservation and Management System for Clients and Agents',
+        'entreprise': 'Green Life Marrakech',
+        'description': 'This project includes two main websites: one designed for clients, allowing them to browse hotel rooms, special offers, available services, and make reservations; and another dashboard dedicated to agents, enabling them to manage and confirm reservations, administer hotel services, set room prices, handle special offers, and view statistics in the form of charts.',
+        'tools': [
+            'BackEnd: Php, Laravel',
+            'FrontEnd: Blade, Html, Css, JavaScript, Jquery',
+            'Other: Git',
         ]
     },
 

@@ -11,7 +11,7 @@ const generalData =
             'collaborative',
         'resume2': 'As a software engineer, I thrive on the challenge of solving complex problems and turning ideas into reality. With a strong background in full-stack development, I am passionate about creating seamless and user-friendly applications that make a positive impact. I believe in continuous learning and constantly exploring emerging technologies to stay at the forefront of the ever-evolving tech landscape. My dedication to clean and efficient code, coupled with effective communication and collaboration skills, enables me to work effectively both independently and as part of a team.',
 
-        'title': 'Java/Spring boot & React Software engineer',
+        'title': 'Java/React/Angular Software engineer',
         'email': 'del.souhaib@gmail.com',
         'tele': '+212 771705545',
         'website': 'www.souhaib-allout.com',

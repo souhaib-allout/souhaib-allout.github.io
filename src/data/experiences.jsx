@@ -25,7 +25,7 @@ const experiences = [
 
     {
         'position': 'Software Engineer',
-        'entreprise': 'VOYAGES FALHI-ESPACE-TOURISME · Marseille - France (Remote)',
+        'entreprise': 'VOYAGES FALHI · Marseille - France (Remote)',
         'duration': 'Nov 2021 - Aug 2023 · 2 years & 5 months',
         'missions': [
             'Responsible for managing the IT department, ensuring smooth operation and efficient functioning of the systems.',
@@ -40,7 +40,7 @@ const experiences = [
     {
         'position': 'Web Developer',
         'entreprise': 'Softechers · Marrakech - Morocco',
-        'duration': 'Dec 2020 - Mar 2021 · 4 months',
+        'duration': 'Jan 2021 - Mar 2021 · 3 months',
         'missions': [
             'Collaborating with the team to understand business requirements and translate them into functional website templates.',
 
@@ -49,6 +49,15 @@ const experiences = [
             'Implementing backend functionalities using PHP Laravel framework to create robust and scalable web applications.',
 
             'Writing clean and maintainable code following industry best practices and coding standards.',
+        ]
+    },
+    {
+        'position': 'Web Developer',
+        'entreprise': 'Green Life Marrakech · Marrakech - Morocco',
+        'duration': 'July 2020 - Dec 2020 · 6 months',
+        'missions': [
+            'Development and deployment of a hotel reservation website with an admin dashboard.',
+            'Implementation of an intuitive interface for clients and efficient tools for managers.'
         ]
     },
 ]

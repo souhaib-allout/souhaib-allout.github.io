@@ -1,5 +1,7 @@
 const skills = [
     {'name': 'Java '},
+    {'name': 'React',},
+    {'name': 'Angular',},
     {'name': 'Spring Boot'},
     {'name': 'Spring Batch'},
     {'name': 'Spring Rest'},
@@ -7,7 +9,6 @@ const skills = [
     {'name': 'Spring Data'},
     {'name': 'Spring Cloud'},
     {'name': 'Microservices'},
-    {'name': 'React',},
     {'name': 'Next Js',},
     {'name': 'TypeScript',},
     {'name': 'JavaScript',},
